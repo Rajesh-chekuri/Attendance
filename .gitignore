@@ -1,0 +1,13 @@
+# VS Code settings
+.vscode/
+
+# JSON data/cache files (not needed in repo)
+appJs_line.json
+indexHtml_line.json
+index_first.json
+step188.json
+stylesCss_line.json
+
+# OS files
+.DS_Store
+Thumbs.db
