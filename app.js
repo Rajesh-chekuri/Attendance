@@ -367,8 +367,7 @@ function renderDashboard() {
             <div class="nav-item ${currentView==='teachers'?'active':''}" data-view="teachers">👨‍ Teachers</div>`;
     } else if (currentUser.role === 'superadmin') {
         navItems = `
-            <div class="nav-item ${currentView==='main'?'active':''}" data-view="main"> Admin Panel</div>
-            <div class="nav-item ${currentView==='pwd_history'?'active':''}" data-view="pwd_history"> Password History</div>`;
+            <div class="nav-item ${currentView==='main'?'active':''}" data-view="main"> Admin Panel</div>`;
     } else if (currentUser.role === 'teacher') {
         navItems = `<div class="nav-item active"> Attendance</div>`;
     } else if (currentUser.role === 'student') {
